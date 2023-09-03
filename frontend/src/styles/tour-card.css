@@ -1,0 +1,119 @@
+/* Styles for the tour image */
+
+.tour__img img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* Styles for the tour card */
+
+.tour__card {
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+
+/* Styles for the tour image container */
+
+.tour__img {
+    position: relative;
+}
+
+
+/* Styles for the overlay text on the tour image */
+
+.tour__img span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 3px 0 0 0;
+}
+
+
+/* Styles for the top section of the card */
+
+.card__top span i {
+    color: var(--secondary-color);
+}
+
+
+/* Styles for the tour rating */
+
+.tour__rating {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+
+/* Styles for the tour location */
+
+.tour__loction {
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.tour__rating i,
+.tour__loction i {
+    font-size: 1rem;
+}
+
+
+/* Styles for the tour title */
+
+.tour__title {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.tour__title a {
+    text-decoration: none;
+    color: var(--heading-color);
+    transition: 0.3s;
+}
+
+.tour__title a:hover {
+    color: var(--secondary-color);
+}
+
+
+/* Styles for the bottom section of the card */
+
+.card__bottom h5 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card__bottom h5 span {
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+
+/* Styles for the booking button */
+
+.booking__btn {
+    background: var(--primary-color) !important;
+    cursor: pointer;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+}
+
+.booking__btn a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.booking__btn a:hover {
+    color: var(--secondary-color);
+}

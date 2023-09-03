@@ -1,0 +1,40 @@
+/* Styles for the service card item */
+
+.service__item {
+    padding: 1rem;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 0.5rem;
+}
+
+
+/* Styles for the service icon/image */
+
+.service__img img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: var(--secondary-color);
+    /* Note: Fixed space before "--secondary-color" */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Styles for the service title */
+
+.service__item h5 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+/* Styles for the service description */
+
+.service__item p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
